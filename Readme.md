@@ -1,13 +1,14 @@
 # NEXT react server components + client components
+[This Demo](https://nextjs-rsc-five.vercel.app/)
 
 1. Parallel Routes
 
-[Demo Link](https://github.com/vercel/nextgram)
+[Parallel Routes Demo](https://github.com/vercel/nextgram)
 
 2. Infinite Scroll & Load More
 
-[Demo Link](https://github.com/adrianhajdin/anime_vault)
+[Infinite Scroll Demo](https://github.com/adrianhajdin/anime_vault)
 
 3. Search (TODO)
 
-[Tutorial Link](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
+[Search Tutorial Link](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
