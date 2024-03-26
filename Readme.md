@@ -1,14 +1,13 @@
-# NextGram
+# NEXT react server components + client components
 
-This is a sample Next.js application that takes advantage of the advanced routing capabilities.
+1. Parallel Routes
 
-The photo route can be attached to _two distinct_ components:
+[Demo Link](https://github.com/vercel/nextgram)
 
-1. When navigating within the application, it is rendered as a modal
-1. When the page is refreshed, it is rendered as a standalone page
+2. Infinite Scroll & Load More
 
-## Demo
+[Demo Link](https://github.com/adrianhajdin/anime_vault)
 
-https://nextgram.vercel.app
+3. Search (TODO)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnextgram)
+[Tutorial Link](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
