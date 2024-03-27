@@ -15,24 +15,19 @@ export default async function page({
   params: { id: string };
 }) {
   const photo = await getImageById(id);
+  const list = Array.from({ length: 7 }, (v, i) => i);
 
   return (
     <Modal>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          overflow: 'auto',
-          gap: '5px',
-        }}
-      >
-        <Photo {...photo} />
-        <Photo {...photo} />
-        <Photo {...photo} />
-        <Photo {...photo} />
-        <Photo {...photo} />
-        <Photo {...photo} />
-        <Photo {...photo} />
+      <div className='flex flex-col gap-[5px] max-h-[500px] w-fit'>
+        {list.map((item, idx) => (
+          <div className='relative'>
+            <Photo {...photo} key={idx} />
+            <div className='h-8 w-8 text-lg flex justify-center items-center absolute top-10 left-2 bg-slate-200 rounded-full'>
+              {idx + 1}
+            </div>
+          </div>
+        ))}
       </div>
     </Modal>
   );

@@ -13,10 +13,12 @@ export default function RootLayout(props: {
 }) {
   return (
     <html>
-      <body style={{ position: 'relative' }}>
-        {props.children}
-        {props.modal}
-        <div id='modal-root' />
+      <body>
+        <main className='relative max-w-[820px] mx-auto'>
+          {props.children}
+          {props.modal}
+          <div id='modal-root' />
+        </main>
       </body>
     </html>
   );

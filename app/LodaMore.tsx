@@ -27,16 +27,11 @@ export default function LodaMore() {
 
   return (
     <>
-      <section className='cards-container'>{data}</section>
-      <section
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          width: '100%',
-        }}
-      >
-        <div ref={ref} style={{ height: '36px' }}>
+      <section className='grid grid-cols-3 gap-16 justify-center items-center p-16 sm:justify-items-center'>
+        {data}
+      </section>
+      <section className='flex justify-center items-center w-full'>
+        <div ref={ref} className='h-9'>
           <Loading />
         </div>
       </section>

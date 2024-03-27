@@ -22,7 +22,7 @@ export async function getImageList(page: number = 1) {
 
   return photos.map((photo) => (
     <Link
-      className='card'
+      className='flex justify-center items-center h-[200px] max-w-[200px] rounded-lg text-black text-4xl font-semibold'
       key={photo.id}
       href={`/photos/${photo.id}`}
       passHref
